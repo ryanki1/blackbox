@@ -1,0 +1,12 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="TestNg Demo" verbose="10">
+    <test name="CnR Tests on Chrome" preserve-order="true">
+        <classes>
+            <class name="ClicknRideTest">
+                <methods>
+                    <include name="urlReachable" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="com.google.code.maven-play-plugin:surefire-play-junit4:1.0.0-beta7" type="repository">
+    <properties maven-id="com.google.code.maven-play-plugin:surefire-play-junit4:1.0.0-beta7" />
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/maven-play-plugin/surefire-play-junit4/1.0.0-beta7/surefire-play-junit4-1.0.0-beta7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/maven-play-plugin/play12-extensions/1.0.0-beta7/play12-extensions-1.0.0-beta7.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/surefire/common-junit4/2.16/common-junit4-2.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/surefire/common-junit3/2.16/common-junit3-2.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/surefire/surefire-api/2.16/surefire-api-2.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/surefire/common-java5/2.16/common-java5-2.16.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/org/apache/maven/shared/maven-shared-utils/0.4/maven-shared-utils-0.4.jar!/" />
+      <root url="jar://$MAVEN_REPOSITORY$/com/google/code/findbugs/jsr305/2.0.1/jsr305-2.0.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
