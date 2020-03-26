@@ -29,7 +29,7 @@ public class ClicknRideTest {
         elePassword.sendKeys("cnr");
         WebElement eleLogin = driver.findElement(By.cssSelector(".dbLoginButton"));
         eleLogin.click();
-        String expectedText = "Anmeldedaten xxxx sind ungültig oder Passwort ist abgelaufen";
+        String expectedText = "Anmeldedaten sind ungültig oder Passwort ist abgelaufen";
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector(".validation-error")));
         WebElement eleValidationError = driver.findElement(By.cssSelector(".validation-error"));
         assertEquals(eleValidationError.getAttribute("innerHTML").trim(), expectedText);
