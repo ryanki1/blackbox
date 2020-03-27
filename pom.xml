@@ -15,11 +15,11 @@
                     <artifactId>maven-surefire-plugin</artifactId>
                     <version>3.0.0-M4</version>
                     <configuration>
-                        <excludes>
-                            <exclude>
-                                **/*Test2.java
-                            </exclude>
-                        </excludes>
+                        <includes>
+                            <include>
+                                **/*UnitTest.java
+                            </include>
+                        </includes>
                     </configuration>
                 </plugin>
             </plugins>
@@ -36,7 +36,7 @@
                     <useSystemClassLoader>false</useSystemClassLoader>
                     <includes>
                         <include>
-                            **/*Test.java
+                            **/*IntegrationTest.java
                         </include>
                     </includes>
                 </configuration>

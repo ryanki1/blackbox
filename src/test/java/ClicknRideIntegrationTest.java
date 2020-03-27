@@ -12,7 +12,7 @@ import java.net.MalformedURLException;
 import static org.testng.Assert.assertEquals;
 
 @Test
-public class ClicknRideTest {
+public class ClicknRideIntegrationTest {
     private WebElement dbLoginBox;
     public void urlReachable() throws MalformedURLException {
         System.setProperty("webdriver.chrome.driver", "/Users/ryanki10/downloads/drivers/chrome/driver80/chromedriver");

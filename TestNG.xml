@@ -2,7 +2,12 @@
 <suite name="TestNg Demo" verbose="10">
     <test name="CnR Tests on Chrome" preserve-order="true">
         <classes>
-            <class name="ClicknRideTest">
+            <class name="ClicknRideUnitTest">
+                <methods>
+                    <include name="schedulingAlgorithmSecuresTrainBookings"/>
+                </methods>
+            </class>
+            <class name="ClicknRideIntegrationTest">
                 <methods>
                     <include name="urlReachable" />
                 </methods>
